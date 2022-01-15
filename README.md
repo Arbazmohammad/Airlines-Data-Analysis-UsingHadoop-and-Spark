@@ -1,5 +1,5 @@
 # Airlines-Analysis-UsingHive-Hadoop
-Hi, Welcome to my GIT World.
+Hi, Welcome to my GitHub.
 
 -> This Hadoop project involves Analysing the Airlines datasets and solving few problem statements.
 
