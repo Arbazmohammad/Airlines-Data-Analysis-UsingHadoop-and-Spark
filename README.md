@@ -1,5 +1,12 @@
 # Airlines-Analysis-UsingHive-Hadoop
+Hi, Welcome to my GIT World.
+
 This Hadoop project involves Analysing the Airlines datasets and solving few problem statements.
+
+There are multiple ways to approach this problem such as PIG, Map Reduce algorithms etc.
+
+I'm using the HIVE approach. It's the most popular and widely used approach when it comes to analysing datasets within Hadoop.
+
 
 Problem Statements:
 
