@@ -1,11 +1,11 @@
 # Airlines_Analysis-UsingHive-Hadoop_Project
 Hi, Welcome to my Git...
 
--> This Hadoop project involves Analysing the Airlines datasets and solving few problem statements.
+-> This Hadoop project involves Analysing the Airlines datasets and solving few business problem statements to improve the airlines performance.
 
--> There are multiple ways to approach this problem such as PIG, Map Reduce algorithms etc.
+-> There are multiple ways to solve this problems using various Hadoop Technologies such as HIVE, Spark, PIG, Map Reduce algorithms etc.
 
--> I'm using the HIVE approach. It's the most popular and widely used approach when it comes to analysing datasets within Hadoop.
+-> I have solved these problems using HIVE and PySpark as these are the most popular and widely used technologies in the industries when it comes to analysing Big datasets within Hadoop.
 
 
 Problem Statements:
