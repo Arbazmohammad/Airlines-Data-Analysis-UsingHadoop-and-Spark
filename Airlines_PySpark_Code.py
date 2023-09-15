@@ -1,19 +1,18 @@
-Solving using PySpark:-
-
+#Solving Problem Statements using PySpark:-
 
 from pyspark.sql import SparkSession
 
 # Initialize a Spark session
 spark = SparkSession.builder.appName("Airlines Data Analysis").getOrCreate()
 
-# Define the file paths
+# Defining the file paths
 input_path = "/home/arbazmoham18edu/Input/"
 
 airports_file = input_path + "airports_mod.dat"
 airlines_file = input_path + "Final_airlines.dat"
 routes_file = input_path + "routes.dat"
 
-# Read data from the three files into Spark DataFrames
+# Reading data from the three files into Spark DataFrames
 airports_df = spark.read.csv(airports_file, header=True, inferSchema=True, sep=",")
 airlines_df = spark.read.csv(airlines_file, header=True, inferSchema=True, sep=",")
 routes_df = spark.read.csv(routes_file, header=True, inferSchema=True, sep=",")
@@ -33,7 +32,7 @@ routes_df.show(5)
 
 
 # Problem Statement A - find the list of airports operating in the country India.
-# Filter the data to select airports in India
+# Filtering the data to select airports in India
 indian_airports_df = airports_df.filter(airports_df["Country"] == "India")
 
 # Select the desired columns (AirportID, Name, City)
