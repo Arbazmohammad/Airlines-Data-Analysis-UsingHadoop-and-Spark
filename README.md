@@ -1,4 +1,4 @@
-# Airlines_Analysis-UsingHive-Hadoop_Project
+# AirlinesAnalysis-UsingHive-Hadoop_Project
 Hi, Welcome to my Git...
 
 -> This Hadoop project involves Analysing the Airlines datasets and solving few business problem statements to improve the airlines performance.
