@@ -20,6 +20,10 @@ D. Which country (or) territory having highest Airports
 
 E. Find the list of Active Airlines in United state
 
-In this use case, there are 3 data sets:
+## In this use case, there are 3 data sets:
 
 -> Final_airlines, routes.dat, airports_mod.dat
+
+## HIVE code is present in Airlines_Solution_Hive_Queries.txt
+
+## PySpark code is present in Airlines_PySpark_Code.py
