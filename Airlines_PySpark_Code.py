@@ -83,7 +83,7 @@ print("Country:", max_airports_country["Country"])
 print("Number of Airports:", max_airports_country["count"])
 
 
-# Problem Statement D - Find the List of Active Airlines in the United States
+# Problem Statement E - Find the List of Active Airlines in the United States
 # Filter the DataFrame to select active airlines in the United States
 active_us_airlines_df = airlines_df.filter((airlines_df["Country"] == "United States") & (airlines_df["Active"] == "Y"))
 
